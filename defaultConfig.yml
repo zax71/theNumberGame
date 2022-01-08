@@ -1,0 +1,8 @@
+# The configuration for Zax71's number guessing game
+
+# Ranges for the guessing
+rangeMax: 50
+rangeMin: 0
+
+guesses: 3
+hints: 3
