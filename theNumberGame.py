@@ -82,7 +82,7 @@ for i in range(0, config["guesses"]):
         break
     # Or if they didn't
     else:
-        print("\nIncorrect answer :( you have", guesses, "guesses left.\n")
+        print("\nIncorrect answer :( you have", config["guesses"]-guesses, "guesses left.\n")
         acceptedAnswer = False
         # Keep looping until they give a valid answer
         while acceptedAnswer == False:
